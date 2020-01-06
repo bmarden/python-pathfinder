@@ -44,7 +44,7 @@ Some of the things that I would like to improve or implement:
 - Implement another window to start the search algorithm after walls have been added instead of having to press spacebar
 - Add the ability remove walls after they have been added
 - Add a way to increase the weight of cells to see how A-star reacts to an increased weight in certain cells
-- Implement Djikstra's after above bullet point
+- Implement Dijkstra's after above bullet point
 
 ### Resources/Helpful Websites
 Some great resources that I found along the way that helped me out a lot.
