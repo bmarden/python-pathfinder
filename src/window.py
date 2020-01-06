@@ -8,7 +8,17 @@ class GridOptions(tk.Tk):
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
         self.resizable(False, False)
+        self.title("Python Pathfinder")
         self.title_font = tkfont.Font(family="Helvetica", size=14, weight="bold")
+
+        # Centers the tkinter window
+        w = self.winfo_reqwidth()
+        h = self.winfo_reqheight()
+        ws = self.winfo_screenwidth()
+        hs = self.winfo_screenheight()
+        x = (ws / 2) - (w / 2)
+        y = (hs / 2) - (h / 2)
+        self.geometry("+%d+%d" % (x, y))
 
         # Dictionary to store choices of user in other frames so the information is accessible
         # outside this module
