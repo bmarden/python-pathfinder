@@ -13,6 +13,9 @@ I included a requirements.txt for dependencies and versions. I had to use PyGame
 - Click and hold left mouse to add walls to the grid
 - Press SPACEBAR to start the visualization 
 
+## Examples
+### A-star
+![A-Star Visualization](https://github.com/bmarden/python-pathfinder/media/a-star_2020-01-11.gif)
 ## Approach
 
 Some notes on my approach and issues I came across.
