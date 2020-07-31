@@ -42,6 +42,7 @@ class Grid:
         col_actual = col * 20
         rec = pygame.Rect(col_actual, row_actual, 19, 19)
         pygame.draw.rect(self.screen, color, rec)
+        pygame.display.update(rec)
 
     def getCell(self, x, y):
         x = x - (x % 20)
